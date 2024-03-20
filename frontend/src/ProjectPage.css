@@ -1,0 +1,303 @@
+ .ProjectPage{
+  width: 100%;
+  height: 300%;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  color: white;
+}
+.title{
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  top: 0%;
+  position: absolute;
+  left: 5%;
+}
+.ml{
+  display: flex;
+  width: 90%;
+  height: 20%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.mltitle{
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top : 10%;
+}
+
+.firstml{
+  top: 0%;
+  width: 40%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+}
+.sa{
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.comma{
+  top: 60%;
+  left: 47%;
+  width: 10%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  position: absolute;
+}
+
+.secondml{
+  top: 0%;
+  left: 60%;
+  width: 40%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+} 
+
+
+
+
+.secml{
+  display: flex;
+  width: 90%;
+  height: 20%;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.comma2{
+  top: 60%;
+  left: 47%;
+  width: 10%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  position: absolute;
+}
+
+.mrs{
+
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top : 0%;
+}
+
+.mrsdesc{
+  position: absolute;
+  left: 5%;
+  top : 200%;
+}
+
+.secondmrs{
+  top: 0%;
+  left: 0%;
+  width: 40%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+} 
+
+.cta {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.cta:focus,
+.cta:hover {
+  color: #fff;
+}
+
+.cta:focus:after,
+.cta:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.cta:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+.fstitle{
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top : 85%;
+}
+
+.fs{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+.firstfs{
+  display: flex;
+  width: 45%;
+  height: 20%;
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.gez{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: -5%;
+  }
+
+  .gezdesc{
+    width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 20%;
+  }
+
+  .secondfs{
+   
+      display: flex;
+      width: 45%;
+      height: 20%;
+      position: absolute;
+      top: 0%;
+      left: 55%;
+      font-family: "Slabo 27px", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+    }
+.comma3{
+  top: 20%;
+  left: 47%;
+  width: 10%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  position: absolute;
+}
+
+.barpp{
+  background-color: #1de296;
+  height: 1%;
+  width: 100%;
+  top: 85%;
+  position: absolute;
+  z-index: 2;
+
+}
+
+.fs2{
+  display: flex;
+  
+  height: 20%;
+  position: absolute;
+  top: 130%;
+  left: 55%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.portfolio{
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.iottitle{
+  position: absolute;
+  top: 180%;
+  
+  z-index: 10;
+  color: white;
+  left: 5%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+ }
+ .iotfirst{
+  position: absolute;
+  top: 200%;
+  left: 5%;
+  color: white;
+ }
