@@ -1,0 +1,60 @@
+.internship{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 200vh;
+    width: 100%;
+    top: 570%;
+    left: 0%;
+    z-index: 10;
+    border-top: 20px solid #1de296;
+}
+
+.interntitle{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  position: absolute;
+  left: 5%;
+  top : 5%;
+}
+.first{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top : 15%;
+
+}
+
+.second{
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+
+}
+
+.date{
+    font-size: 20px;
+    position: absolute;
+  top: 30%; 
+  left: 110%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.date2{
+    position: absolute;
+    font-size: 20px;
+    top: 25%; 
+    margin-left: -70%;
+    width: 100%;
+  color: rgb(255, 255, 255);
+}

@@ -1,9 +1,10 @@
 // ProjectPageReact.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import "./ProjectPage.css"
 import SentimentAnalysisGame from './SentimentAnalysisForm';
 const ProjectPageReact = () => {
+
   return (
     <div className='ProjectPage'>
       <div className='title'>
@@ -28,7 +29,7 @@ const ProjectPageReact = () => {
          <p>P.S: Press Start!</p><SentimentAnalysisGame/></div> 
       </div>
       <div className='secml'>
-        <div className='secondml'  data-aos="fade-up">
+        <div className='secondml2'  data-aos="fade-up">
         <p className='mrs'>Movie Recommender System</p>
         <p className='mrsdesc'>In this project, we crafted a robust movie recommendation system leveraging cutting-edge machine learning methodologies and sophisticated data processing techniques.
            Our primary objective was to provide users with personalized movie suggestions based on their preferences.
@@ -46,9 +47,7 @@ const ProjectPageReact = () => {
 
          </div> 
       </div>
-      <div className='barpp' data-aos="fade-down">
-
-      </div>
+      <div className='divider'></div>
       <div className='fstitle' data-aos="fade-right">
         <p>FULL STACK</p>
       </div>
@@ -62,32 +61,46 @@ const ProjectPageReact = () => {
             add items to their cart, and make purchases, while Managers contribute valuable feedback to enhance the platform. 
             Admins, with privileged access, utilize Flask, Redis, and SQLite for efficient stock management, including tasks such as restocking items like dairy products.</p>
         </div>
-        <div className='comma3'>,</div>
         <div className='secondfs' data-aos="fade-up"> 
+        
         </div>
       </div>
-      <div className='fs2'>
-        <div className='secondfd' data-aos="fade-up-right">
-        <p className='portfolio'>PORTFOLIO</p>
-        <p className='portdesc'></p>
+      <div className='fs2' data-aos="fade-up">
+        <div className='secondfd'>
+        <p className='portfolio'  data-aos="fade-up-left">PORTFOLIO</p>
+        <p className='portdesc'  data-aos="fade-up-left">
+        My portfolio website combines the power of React for dynamic frontend interaction with Flask, JavaScript, and SQLite for backend functionality. 
+        Through this stack,
+        I've crafted a seamless user experience that showcases my projects and skills effectively. With React's component-based structure,
+        the website offers fluid navigation and engaging interactivity. Flask handles the backend processes efficiently, ensuring smooth data
+        retrieval and storage using SQLite. Overall, my portfolio website reflects my technical prowess while providing visitors with an intuitive and 
+        visually appealing interface to explore my work.
+        </p>
         </div>
        
       </div>
-
+    
+      <div className='divider2'></div>
       <div className='iot'>
       <div className='iottitle' data-aos="fade-right">
         <p>INTERNET OF THINGS</p>
       </div>
       <div className='iotfirst' data-aos="fade-up-right">
         <p className='bot'>Smart Navaigation Bot</p>
-        <p className='botdesc'>In this project we have built a sophisticated grocery shopping application developed with Vue.js for a dynamic user interface, 
-          Flask for robust backend functionality, Redis for efficient caching, 
-          and SQLite for database storage. The application seamlessly integrates worker beats to handle background processes,
-           creating a comprehensive shopping experience for Users, Managers, and Admins. Users can effortlessly browse,
-            add items to their cart, and make purchases, while Managers contribute valuable feedback to enhance the platform. 
-            Admins, with privileged access, utilize Flask, Redis, and SQLite for efficient stock management, including tasks such as restocking items like dairy products.</p>
+        <p className='botdesc'>Embark on the development of an advanced autonomous
+navigational robot that combines servo motor control, machine
+learning-based object recognition using Convolutional Neural
+Networks (CNNs), and a Bluetooth-enabled browser app for userfriendly remote control. The project integrates FeatherS3
+microcontrollers, servo motors, a camera system, and ultrasound
+sensors to create a versatile robotic platform.
+An autonomous robot featuring Bluetooth-controlled servo motors,
+ultrasound sensors, and real-time object classification using
+Convolutional Neural Networks (CNNs) for versatile and precise
+navigation.</p>
         </div>
-        <div></div>
+        <div>
+
+    </div>
       </div>
     </div>
   );
