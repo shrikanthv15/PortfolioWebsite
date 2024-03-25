@@ -3,10 +3,12 @@
 import React, { useState } from 'react';
 import "./ProjectPage.css"
 import SentimentAnalysisGame from './SentimentAnalysisForm';
+import ChatRoom from './ChatRoom';
+
 const ProjectPageReact = () => {
 
   return (
-    <div className='ProjectPage'>
+    <div className='ProjectPage' >
       <div className='title'>
         <p data-aos="fade-down" data-aos-duration="1000">PROJECTS</p>
       </div>
@@ -66,6 +68,8 @@ const ProjectPageReact = () => {
         </div>
       </div>
       <div className='fs2' data-aos="fade-up">
+        <div className='chatroomdiv'> <ChatRoom/></div>
+       
         <div className='secondfd'>
         <p className='portfolio'  data-aos="fade-up-left">PORTFOLIO</p>
         <p className='portdesc'  data-aos="fade-up-left">

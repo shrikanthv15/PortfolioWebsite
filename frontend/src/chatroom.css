@@ -1,0 +1,31 @@
+.chatroom-container {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+  }
+  
+  .message-input {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 5px;
+    background-color: #444; /* Darker background color */
+    color: #fff; /* Text color */
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0088cc; /* Button color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: #005580; /* Button color on hover */
+  }
+  

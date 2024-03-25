@@ -242,6 +242,14 @@
   top: 20%;
   }
 
+.chatroomdiv{
+  position: relative;
+  width: 100%;
+  top: 160%; 
+  z-index: 10;
+  left: -80%;
+  margin-left: -80%;
+}
   .secondfs{
     
     background-repeat: no-repeat;

@@ -58,3 +58,19 @@
     width: 100%;
   color: rgb(255, 255, 255);
 }
+
+.info1{
+  position: absolute;
+  width: 140%;
+  top: 350%;
+  margin-left: -110%;
+  text-align: start;
+}
+
+.info2{
+  position: absolute;
+  width: 140%;
+  top: 350%;
+  margin-left: -0%;
+  text-align: start;
+}

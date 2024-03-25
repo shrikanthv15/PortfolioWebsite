@@ -21,6 +21,7 @@
   height: 3%;
   position: absolute;
   z-index: 2;
+  animation: 5s bars infinite ;
 }
 .bar2{
   background-color: #1de296;
@@ -28,6 +29,7 @@
   height: 3%;
   top: 97%;
   position: absolute;
+  animation: 5s bars infinite ;
   z-index: 2;
 }
 
@@ -36,8 +38,19 @@
   height: 98%;
   width: 2%;
   top: 2%;
+  animation: 5s bars infinite ;
   position: absolute;
   z-index: 2;
+}
+.bar4{
+  background-color: #1de296;
+  height: 98%;
+  width: 2%;
+  animation: 5s bars infinite ;
+  top: 2%;
+  left: 108.03%;
+  position: absolute;
+  z-index: 5;
 }
 .text{
   font-family: "Slabo 27px", serif;
@@ -61,7 +74,7 @@
   position: absolute;
   color: white;
   /* Animation for the typing effect */
-  animation: typing 3s steps(50) , blink-caret 3s step-end forwards ;
+  animation: typing 2s steps(50) , blink-caret 2s step-end forwards ;
 }
 
 /* Keyframes for the typing animation */
@@ -127,7 +140,7 @@
   color: white;
   position: absolute;
   /* Animation for the typing effect */
-  animation: clear 3s, typing1 3s  3s steps(40) , blink-caret2 4s 3s step-end forwards ;
+  animation: clear 2s, typing1 2s  2s steps(40) , blink-caret2 2.5s 3s step-end forwards ;
 }
 
 @keyframes clear {
@@ -164,3 +177,30 @@
  }
 
  
+@keyframes bars{
+
+    0%{
+      background-color: #1de296;
+    }
+    50%{
+      background-color: black;
+    }
+    100%{
+      background-color: #1de296;
+    }
+}
+
+
+.navbars{
+  width: 750px;
+  border-top: 2px solid white ;
+  position: absolute;
+  top: 35%;
+  left: 9%;
+  display: flex;
+}
+
+.links{
+  margin-left: 12%;
+  font-size: 15px;
+}
