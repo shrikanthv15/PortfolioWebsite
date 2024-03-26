@@ -25,6 +25,11 @@ class Message(db.Model):
     def __repr__(self):
         return f'<Message {self.id}>'
 
+
+@app.route('/')
+def hello():
+    return "hello"
+
 # API endpoint for sentiment analysis
 @app.route('/sentiment-analysis', methods=['POST'])
 def sentiment_analysis():
