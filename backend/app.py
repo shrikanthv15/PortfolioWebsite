@@ -52,7 +52,7 @@ def stream_messages():
 @app.route('/send-message', methods=['OPTIONS'])
 def handle_options():
     response = Response()
-    response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
+    response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://portfoliowebsite-dzzh.onrender.com')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'POST')
     return response
