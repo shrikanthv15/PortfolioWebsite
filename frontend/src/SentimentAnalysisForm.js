@@ -38,7 +38,7 @@ const SentimentAnalysisGame = () => {
             return;
           }
 
-        const response = await fetch('http://127.0.0.1:5000/sentiment-analysis', {
+        const response = await fetch('https://shy-lime-lamb-boot.cyclic.app/sentiment-analysis', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
