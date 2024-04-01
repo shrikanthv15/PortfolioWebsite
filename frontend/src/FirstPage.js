@@ -25,9 +25,9 @@ const FirstPageReact = () => {
           <p className='surname'>VILVADRINATH</p>
           
         <div className='navbars'>
-          <div className='link'>
+          <div className='links'>
          
-            <h1>Home</h1>
+            <h1 className='fontsfirst'>Home</h1>
        
           </div>
           <div className='links'>
@@ -38,7 +38,7 @@ const FirstPageReact = () => {
           offset={-70} // Adjust as needed
           duration={500} // Duration of the scroll animation
         >
-            <h1 style={{ cursor: 'pointer' }} >Project</h1>
+            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Project</h1>
             </Link>
           </div >
           <div className='links'>
@@ -49,11 +49,11 @@ const FirstPageReact = () => {
           offset={-10} // Adjust as needed
           duration={3000} // Duration of the scroll animation
         >
-            <h1 style={{ cursor: 'pointer' }}>Internships</h1>
+            <h1 className='fontsfirst' style={{ cursor: 'pointer' }}>Internships</h1>
             </Link>
           </div>
           <div className='links'>
-          <a href="mailto:your.email@example.com" style={{ textDecoration: "None" , color: "white"}}><h1>Email Me</h1></a>
+          <a  href="mailto:your.email@example.com" style={{ textDecoration: "None" , color: "white"}}><h1 className='fontsfirst'>Email Me</h1></a>
           </div>
 
         </div>

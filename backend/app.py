@@ -25,6 +25,11 @@ class Message(db.Model):
     def __repr__(self):
         return f'<Message {self.id}>'
 
+
+@app.route('/')
+def hello():
+    return "hello"
+
 # API endpoint for sentiment analysis
 @app.route('/sentiment-analysis', methods=['POST'])
 def sentiment_analysis():
@@ -52,7 +57,7 @@ def stream_messages():
 @app.route('/send-message', methods=['OPTIONS'])
 def handle_options():
     response = Response()
-    response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
+    response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://portfoliowebsite-dzzh.onrender.com')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'POST')
     return response

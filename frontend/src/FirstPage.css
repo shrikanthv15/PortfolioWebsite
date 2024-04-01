@@ -204,3 +204,53 @@
   margin-left: 12%;
   font-size: 15px;
 }
+
+
+@media screen and (max-width: 500px) {
+  .port{
+    position: absolute;
+    font-size: 10px;
+    left: 30%;
+    top: 0%;
+    z-index: 5;
+  }
+  .firstpage{
+    height: 100vh;
+  }
+  .text {
+    width: 90%;
+    top: 10%;
+    left: 0%; 
+  }
+
+  .name {
+    font-size: 20px; /* Adjust font size */
+    top: 2%;
+    z-index: 5;
+    left: 20%;
+  }
+
+  .surname {
+    font-size: 20px; /* Adjust font size */
+    top: 0%;
+    z-index: 5;
+    left: 15%;
+  }
+
+  .navbars {
+    border-top: 2px solid white ;
+
+    width: 55%; /* Adjust width */
+    left: 10%; /* Adjust position */
+    top: 10%; /* Adjust position */
+    font-size: 10px;
+  }
+
+  .links {
+    margin-left: 4%; /* Adjust margin */
+    font-size: 5px; /* Adjust font size */
+  }
+  .fontsfirst{
+    font-size: 10px;
+  }
+}

@@ -10,7 +10,7 @@ const ChatRoom = () => {
 
   const sendMessage = async () => {
     try {
-        await axios.post('http://localhost:5000/send-message', { text: message });
+        await axios.post('https://shy-lime-lamb-boot.cyclic.app/send-message', { text: message });
         setMessage(''); // Clear the input field after sending the message
         alert("Message Sent!");
     } catch (error) {

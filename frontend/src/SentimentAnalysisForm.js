@@ -136,7 +136,9 @@ const SentimentAnalysisGame = () => {
           {gameOver ? 'START' : 'ENTER'}
         </button>
         <p>Time remaining: {timer}s</p>
+        <br></br>
         {gameOver && <p>Game Over! Final Score: {score}</p>}
+        <br></br>
         {sentimentResult && <p>Sentiment: {sentimentResult}</p>}
         <div>
           <p>Words and Scores:</p>
