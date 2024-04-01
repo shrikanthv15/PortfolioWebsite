@@ -11,7 +11,7 @@ const InternshipPage = () => {
             <div className='first' data-aos="fade-right" data-aos-duration="1000">
             AI RESEARCH INTERN
             <div className='date'>
-              (  01/02/2024 - Present )
+              (  01/02/2024 - 01/04/2024 )
                 <div className='info1'>
                 During my internship at AI Himalaya Labs under the mentorship of Arifa Khan, 
                 India's esteemed Ethereum Partner, I engaged in a variety of impactful tasks
@@ -44,7 +44,7 @@ const InternshipPage = () => {
                        interdisciplinary collaboration in driving innovation within the field.
                 </div>
             </div>
-            </div>
+            </div> 
     </div>
   );
 };

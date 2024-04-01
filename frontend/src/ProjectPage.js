@@ -26,7 +26,10 @@ const ProjectPageReact = () => {
         <div className='comma' data-aos="fade-up">,</div>
          <div className='secondml'  data-aos="fade-up"> 
           <p>Score as many positive points as you can.</p>
-         <p>P.S: Press Start!</p><SentimentAnalysisGame/></div> 
+          <div className='gameml'>
+         <p>P.S: Press Start!</p><SentimentAnalysisGame/>
+         </div></div> 
+
       </div>
       <div className='secml'>
         <div className='secondml2'  data-aos="fade-up">
@@ -48,9 +51,10 @@ const ProjectPageReact = () => {
          </div> 
       </div>
       <div className='divider'></div>
-      <div className='fstitle' data-aos="fade-right">
+       <div className='fstitle' data-aos="fade-right">
         <p>FULL STACK</p>
       </div>
+      
       <div className='fs'>
         <div className='firstfs' data-aos="fade-up-right">
         <p className='gez'>GROCEREZ</p>
@@ -65,7 +69,7 @@ const ProjectPageReact = () => {
         
         </div>
       </div>
-      <div className='fs2' data-aos="fade-up">
+       <div className='fs2' data-aos="fade-up">
         <div className='secondfd'>
         <p className='portfolio'  data-aos="fade-up-left">PORTFOLIO</p>
         <p className='portdesc'  data-aos="fade-up-left">
@@ -101,7 +105,7 @@ navigation.</p>
         <div>
 
     </div>
-      </div>
+      </div> 
     </div>
   );
 };

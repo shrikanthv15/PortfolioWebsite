@@ -74,3 +74,69 @@
   margin-left: -0%;
   text-align: start;
 }
+
+@media screen and (max-width: 768px) {
+  .internship{
+    position: absolute;
+    top: 230%;
+    z-index: 20;
+  }
+  .interntitle {
+    font-size: 20px; /* Adjust font size */
+    position: absolute;
+    top: 1%;
+    
+  }
+
+.first{
+  font-size: 20px; /* Adjust font size */
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  
+}
+.date{
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  font-size: 10px;
+  width: 100%;
+
+}
+
+.info1{
+  position: absolute;
+  left: 0%;
+  font-size: 10px;
+}
+
+
+.date2{
+  position: absolute;
+  left: 70%;
+  top: 100%;
+  font-size: 10px;
+  width: 100%;
+
+}
+.second{
+  font-size: 20px; /* Adjust font size */
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 20%;
+} 
+.info2{
+  position: absolute;
+  left: 0%;
+  font-size: 10px;
+}
+  
+
+  .info1,
+  .info2 {
+    width: 100%; /* Adjust width */
+    margin-left: 0; /* Reset margin */
+    top: 250%; /* Adjust position */
+  }
+}
