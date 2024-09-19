@@ -25,15 +25,12 @@ const SentimentAnalysisGame = () => {
       setWordScores([]);
       setAllWords(new Set());
     } else {
-      // Continue with sentiment analysis
       try {
         if (allWords.has(inputText.toLowerCase()) ) {
-          // Word has already been used
           alert('You cannot use the same word again!');
           return;
         }
          if (inputText=="") {
-            // Word has already been used
             alert('Input Is Empty!');
             return;
           }
@@ -49,18 +46,14 @@ const SentimentAnalysisGame = () => {
         const data = await response.json();
         setSentimentResult(data.sentiment);
 
-        // Update the score based on sentiment
         const wordScore = data.sentiment === 'positive' ? 1 : -1;
 
         setScore((prevScore) => prevScore + wordScore);
 
-        // Store the score for the current word
         setWordScores((prevWordScores) => [...prevWordScores, { word: inputText, score: wordScore }]);
 
-        // Store the entered word
         setAllWords((prevAllWords) => new Set([...Array.from(prevAllWords), inputText.toLowerCase()]));
 
-        // Clear the input field after analysis
         setInputText('');
       } catch (error) {
         console.error('Error during sentiment analysis:', error);

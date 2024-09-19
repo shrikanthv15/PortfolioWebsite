@@ -1,11 +1,12 @@
 .ProjectPage{
-  width: 100%;
+  width: 100vw;
   height: 300%;
   position: absolute;
   background-color: black;
-  top: 100%;
+  top: 270%;
   color: white;
 }
+
 .title{
   font-family: "Slabo 27px", serif;
   font-weight: 400;
@@ -17,7 +18,7 @@
 }
 .ml{
   display: flex;
-  width: 90%;
+  width: 90vw;
   height: 20%;
   position: absolute;
   top: 15%;
@@ -26,6 +27,32 @@
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
+}
+.skill1{
+  margin-left: 4%;
+}
+
+.borderml1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 170px;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+}
+
+
+.borderml2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 170px;
+  border: 2px solid white;
+  transform: translate(0px, 170px);
+  display: flex;
 }
 
 .mltitle{
@@ -79,7 +106,17 @@
 .secondml2{
   top: 10%;
   left: 60%;
-  width: 40%;
+  width: 35vw;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+} 
+.secondml1{
+  top: 10%;
+  left: 8%;
+  width: 35vw;
   font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
@@ -87,8 +124,18 @@
   position: absolute;
 } 
 
-
-
+.secondml3{
+  position: absolute;
+  top: 180%;
+  left: 0%;
+  margin-left: -10%;
+  width: 35vw;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  
+} 
 
 .secml{
   display: flex;
@@ -169,7 +216,7 @@
 
 .cta:focus:after,
 .cta:hover:after {
-  width: 100%;
+  width: 100vw;
   left: 0%;
 }
 
@@ -199,8 +246,8 @@
 
 .fs{
   display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   position: absolute;
   top: 75%;
   left: 0%;
@@ -238,7 +285,7 @@
 
   .gezdesc{
     width: 80%;
-  height: 100%;
+  height: 100vw;
   position: absolute;
   top: 20%;
   }
@@ -271,7 +318,7 @@
 
 .divider{
   background-color: #1de296;
-  width: 100%;
+  width: 100vw;
   height: 1%;
 position: absolute;
 top: 60%;
@@ -279,7 +326,7 @@ top: 60%;
 
 .divider2{
   background-color: #1de296;
-  width: 100%;
+  width: 100vw;
   height: 1%;
 position: absolute;
 z-index: 5;
@@ -323,7 +370,7 @@ left: 0%;
  }
  .iotfirst{
   position: absolute;
-  top: 125%;
+  top: 119%;
   left: 5%;
   width: 40%;
   color: white;
@@ -396,7 +443,7 @@ left: 0%;
   font-size: 10px;
   left: 5%;
   top: 10%;
-  width: 100%;
+  width: 100vw;
   position: absolute;
 }
  .comma
@@ -416,7 +463,7 @@ left: 0%;
 .secml{
   width: 90%;
   font-size: 10px;
-  top: 100%;
+  top: 100vw;
   position: absolute;
   left: 0%;
 }
@@ -433,7 +480,7 @@ left: 0%;
 }
 .mrs{
 
-  width: 100%;
+  width: 100vw;
   font-size: 20px;
 }
 
@@ -467,12 +514,12 @@ left: 0%;
   opacity: 1;
   font-size: 10px;
   top: 32%;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   
 }
 .gez{
-  width: 100%;
+  width: 100vw;
   font-size: 20px;
 }
 .gezdesc{
@@ -487,12 +534,12 @@ left: 0%;
   font-size: 10px;
   left: 5%;
   top: 10%;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   
 }
 .portfolio{
-  width: 100%;
+  width: 100vw;
   font-size: 20px;
 }
 .portdesc{
@@ -523,14 +570,14 @@ left: 0%;
   
 }
 .iotfirst{
-  width: 100%;
+  width: 100vw;
   top: 10%;
   
  }
 .bot{
   font-size: 20px;
   top: 1%;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   margin-top: 15% ;
 }
@@ -538,7 +585,7 @@ left: 0%;
   font-size: 10px;
   margin-top: 30% ;
   position: absolute;
-  top: 100%;
+  top: 100vw;
   width: 90%;
 }
 

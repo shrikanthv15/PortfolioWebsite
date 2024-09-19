@@ -25,29 +25,73 @@ const ProjectPageReact = () => {
         </div>
         <div className='comma' data-aos="fade-up">,</div>
          <div className='secondml'  data-aos="fade-up"> 
-          <p>Score as many positive points as you can.</p>
-          <div className='gameml'>
-         <p>P.S: Press Start!</p><SentimentAnalysisGame/>
-         </div></div> 
+          <div className='borderml1'>
+            <div className='skill1'>
+            Data Extraction
+            </div>
+            <div className='skill1'>
+            Data Analysis
+            </div>
+            <div className='skill1'>
+            Feature Engineering
+            </div>
+            
+          </div>
+          <div className='borderml2'>
+            <div className='skill1'>
+            Model Training
+            </div>
+            <div className='skill1'>
+            Fine Tuning
+            </div>
+            <div className='skill1'>
+            Porter Stemming
+            </div>
+            
+          </div>
+          
+          </div> 
 
       </div>
       <div className='secml'>
         <div className='secondml2'  data-aos="fade-up">
-        <p className='mrs'>Movie Recommender System</p>
-        <p className='mrsdesc'>In this project, we crafted a robust movie recommendation system leveraging cutting-edge machine learning methodologies and sophisticated data processing techniques.
-           Our primary objective was to provide users with personalized movie suggestions based on their preferences.
-            The system incorporates advanced collaborative filtering models, content-based filtering, 
-            and hybrid recommendation approaches to enhance accuracy and diversity in movie recommendations. 
-            Key components include matrix factorization, cosine similarity,combined with meticulous data preprocessing for optimal performance. 
-            The resulting movie recommender system excels in delivering tailored suggestions, 
-            ensuring an enriching and enjoyable viewing experience for users.</p>
+        <p className='mrs'>Generative AI Integration</p>
+        <p className='mrsdesc'>We created an innovative GenAI-powered learning platform for the Study portal, 
+          transforming the user experience with interactive content, real-time problem-solving support, 
+          and intelligent feedback mechanisms. This cutting-edge environment integrates a 
+          live coding IDE with seamless API integration and a secure JWT-based login system. 
+          By crafting detailed user journey maps and wireframes, I envisioned the next-gen experience for learners. 
+          Through agile project management in Jira, I oversaw development sprints and designed API endpoints, ensuring functionality and scalability. 
+          Extensive test cases were written to validate the system,
+           with the final product presented through a polished working prototype and comprehensive report.</p>
         </div>
         <div className='comma2' data-aos="fade-up">,</div>
-         <div className='secondmrs'  data-aos="fade-up-right"> <p>Check Out It's Working Website:</p>
-     <a href='https://recommendationsystem-0uab.onrender.com' target='_blank'>    <button className='cta'>
-    Click Here
-</button></a>
-
+         <div className='secondmrs'  data-aos="fade-up-right"> 
+         <div className='borderml1'>
+            <div className='skill1'>
+            Generative AI
+            </div>
+            <div className='skill1'>
+            Machine Learning
+            </div>
+            <div className='skill1'>
+            FLASK
+            </div>
+            
+          </div>
+          <div className='borderml2'>
+            <div className='skill1'>
+            Machine Learning
+           
+            </div>
+            <div className='skill1'>
+            SQL
+            </div>
+            <div className='skill1'>
+            VUE.JS
+            </div>
+            
+          </div>
          </div> 
       </div>
       <div className='divider'></div>
@@ -66,7 +110,33 @@ const ProjectPageReact = () => {
             Admins, with privileged access, utilize Flask, Redis, and SQLite for efficient stock management, including tasks such as restocking items like dairy products.</p>
         </div>
         <div className='secondfs' data-aos="fade-up"> 
-        
+        <div className='secondml1'  data-aos="fade-up"> 
+          <div className='borderml1'>
+            <div className='skill1'>
+            Vue.js
+            </div>
+            <div className='skill1'>
+            Flask
+            </div>
+            <div className='skill1'>
+            Redis
+            </div>
+            
+          </div>
+          <div className='borderml2'>
+            <div className='skill1'>
+            SQLite 
+            </div>
+            <div className='skill1'>
+            Python
+            </div>
+            <div className='skill1'>
+            Caching
+            </div>
+            
+          </div>
+          
+          </div> 
         </div>
       </div>
        <div className='fs2' data-aos="fade-up">
@@ -81,7 +151,32 @@ const ProjectPageReact = () => {
         visually appealing interface to explore my work.
         </p>
         </div>
-       
+        <div className='secondml3'  data-aos="fade-up"> 
+          <div className='borderml1'>
+            <div className='skill1'>
+            ReactJs 
+            </div>
+            <div className='skill1'>
+            Flask
+            </div>
+            <div className='skill1'>
+            Redis
+            </div>
+            
+          </div>
+          <div className='borderml2'>
+            <div className='skill1'>
+            SQLite 
+            </div>
+            <div className='skill1'>
+            Python
+            </div>
+            <div className='skill1'>
+            Caching
+            </div>
+            
+          </div>
+          </div>
       </div>
     
       <div className='divider2'></div>

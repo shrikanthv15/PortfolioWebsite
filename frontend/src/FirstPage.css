@@ -70,7 +70,7 @@
   overflow: hidden; /* Hide overflow to create the typing effect */
   white-space: nowrap; /* Ensure the text stays in one line */
   border-right: 3px solid #ff8fab; /* Create a blinking cursor effect */
-  left: 20%;
+  left: 25%;
   position: absolute;
   color: white;
   /* Animation for the typing effect */
@@ -136,7 +136,7 @@
   overflow: hidden; /* Hide overflow to create the typing effect */
   white-space: nowrap; /* Ensure the text stays in one line */
   border-right: 3px solid #ff8fab; /* Create a blinking cursor effect */
-  left: 11%;
+  left: 17%;
   color: white;
   position: absolute;
   /* Animation for the typing effect */
@@ -188,23 +188,47 @@
     100%{
       background-color: #1de296;
     }
-}
-
+} 
 
 .navbars{
   width: 750px;
   border-top: 2px solid white ;
+  animation: comein 2s forwards;
   position: absolute;
   top: 35%;
   left: 9%;
   display: flex;
 }
 
+@keyframes comein {
+  from{
+     display: block;
+     width: 0%;
+     align-self: center;
+  }
+  to{
+    width: 100%;
+    display: flex;
+  }
+  
+}
 .links{
   margin-left: 5%;
   font-size: 15px;
 }
 
+.wabble{
+  animation:  dabble 2s infinite;
+}
+
+@keyframes dabble {
+  from{
+    transform: rotateY('0deg');
+  }
+  to{
+    transform: rotateY('40deg');
+  }
+}
 
 @media screen and (max-width: 500px) {
   .port{
@@ -229,7 +253,6 @@
     z-index: 5;
     left: 20%;
   }
-
   .surname {
     font-size: 20px; /* Adjust font size */
     top: 0%;

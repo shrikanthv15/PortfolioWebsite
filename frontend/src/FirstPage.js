@@ -24,36 +24,47 @@ const FirstPageReact = () => {
           <p className='name'>SHRIKANTH</p>
           <p className='surname'>VILVADRINATH</p>
           
-        <div className='navbars'>
-          <div className='links'>
+        <div className='navbars' style={{  }}>
+          <div className='links' data-aos="fade-up">
          
             <h1 className='fontsfirst'>Home</h1>
        
           </div>
-          <div className='links'>
+          <div className='links' data-aos="fade-up" data-aos-duration='1300'>
           <Link
-          to="ProjectPage" // Provide the ID of the target element to scroll to
+          to="EducationPage" 
           spy={true}
           smooth={true}
-          offset={-70} // Adjust as needed
-          duration={500} // Duration of the scroll animation
+          offset={-70} 
+          duration={500}
         >
-            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Project</h1>
+            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Education</h1>
             </Link>
           </div >
           <div className='links'>
           <Link
-          to="internship" // Provide the ID of the target element to scroll to
+          to="ProjectPage" 
           spy={true}
           smooth={true}
-          offset={-10} // Adjust as needed
-          duration={3000} // Duration of the scroll animation
+          offset={-70} 
+          duration={500}
         >
-            <h1 className='fontsfirst' style={{ cursor: 'pointer' }}>Internships</h1>
+            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Projects</h1>
+            </Link>
+          </div >
+          <div className='links' >
+          <Link
+          to="internship" 
+          spy={true}
+          smooth={true}
+          offset={-10} 
+          duration={1000}
+        >
+            <h1 className='fontsfirst'  style={{ cursor: 'pointer' }}>Internships</h1>
             </Link>
           </div>
-          <div className='links'>
-          <a  href="mailto:your.email@example.com" style={{ textDecoration: "None" , color: "white"}}><h1 className='fontsfirst'>Email Me</h1></a>
+          <div className='links' >
+          <a  href="mailto:shri.vilvadrinath@gmail.com" style={{ textDecoration: "None" , color: "white"}}><h1 className='fontsfirst'>Email</h1></a>
           </div>
 
         </div>

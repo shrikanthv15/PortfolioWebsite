@@ -3,12 +3,14 @@ import FirstPage from './FirstPage';
 import ProjectPage from './ProjectPage';
 import GamingPage from './GamingPage';
 import InternshipPage from './InternshipPage';
+import EducationPage from './EducationPage';
 
 const HomePage = () => {
   return (
-    <div>
+    <div style={{ width: "90vw" }}>
       <FirstPage />
       <ProjectPage />
+      <EducationPage/>
       {/* <GamingPage /> */}
       <InternshipPage/>
     </div>
