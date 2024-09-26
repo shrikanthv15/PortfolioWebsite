@@ -66,7 +66,7 @@
 }
 .name {
   margin-top: 0%;
-  font-size: 95px;
+  font-size: 85px;
   overflow: hidden; /* Hide overflow to create the typing effect */
   white-space: nowrap; /* Ensure the text stays in one line */
   border-right: 3px solid #ff8fab; /* Create a blinking cursor effect */
@@ -132,7 +132,7 @@
 
 .surname{
   margin-top: 15%;
-  font-size: 95px;
+  font-size: 85px;
   overflow: hidden; /* Hide overflow to create the typing effect */
   white-space: nowrap; /* Ensure the text stays in one line */
   border-right: 3px solid #ff8fab; /* Create a blinking cursor effect */
@@ -157,9 +157,9 @@
 
 
 .port{
-  margin-top: -10%;
-  font-size: 20px;
-  left: 48%;
+  margin-top: -5%;
+  font-size: 17px;
+  left: 51%;
   position: absolute;
 } 
 
@@ -214,7 +214,7 @@
 }
 .links{
   margin-left: 5%;
-  font-size: 15px;
+  font-size: 1px;
 }
 
 .wabble{
@@ -266,14 +266,14 @@
     width: 55%; /* Adjust width */
     left: 10%; /* Adjust position */
     top: 10%; /* Adjust position */
-    font-size: 10px;
+    font-size: 1px;
   }
 
   .links {
     margin-left: 4%; /* Adjust margin */
-    font-size: 5px; /* Adjust font size */
+    font-size: 1px; /* Adjust font size */
   }
   .fontsfirst{
-    font-size: 10px;
+    font-size: 1px;
   }
 }

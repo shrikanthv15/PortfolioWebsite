@@ -2,7 +2,7 @@
     position: absolute;
     background-color: black;
     color: white;
-    height: 130vh;
+    height: 140vh;
     width: 100%;
     top: 690%;
     left: 0%;
@@ -22,8 +22,9 @@
 .first{
     font-family: "Slabo 27px", serif;
     font-weight: 400;
+    width: 30vw;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
   position: absolute;
   left: 5%;
   top : 15%;
@@ -34,19 +35,20 @@
     font-family: "Slabo 27px", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
   position: absolute;
-  left: 65%;
-  top: 50%;
+  width: 30vw;
+  left: 68%;
+  top: 60%;
 
 }
 
 .date{
     font-size: 20px;
     position: absolute;
-  top: 30%; 
-  left: 110%;
-  width: 100%;
+  top: 50%; 
+  width: 30vw;
+  left: 100%;
   color: rgb(255, 255, 255);
 }
 
@@ -62,15 +64,15 @@
 .info1{
   position: absolute;
   width: 140%;
-  top: 350%;
-  margin-left: -110%;
+  top: 200%;
+  margin-left: -100%;
   text-align: start;
 }
 
 .info2{
   position: absolute;
   width: 140%;
-  top: 350%;
+  top: 200%;
   margin-left: -0%;
   text-align: start;
 }

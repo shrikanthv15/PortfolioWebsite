@@ -43,11 +43,11 @@ const EducationPage = () => {
         </div>
 
         <div className='mltitle'>
-        <p data-aos="fade-right" style={{ position: "absolute", top: 650 }}> Vishwakarma Government Engineering College - Ahemdabad</p>
+        <p data-aos="fade-right" style={{ position: "absolute", top: 650, marginLeft: "-0%" }}> Vishwakarma Government Engineering College - Ahemdabad</p>
 
       </div>
         <div className='secml' style={{ 
-    top: "62.5%"}}>
+    top: "67%"}}>
         
             <p style={{ fontSize: 30}}>
             Bachelor of Engineering in Electronics And Communication

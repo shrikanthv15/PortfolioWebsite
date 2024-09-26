@@ -27,7 +27,7 @@ const FirstPageReact = () => {
         <div className='navbars' style={{  }}>
           <div className='links' data-aos="fade-up">
          
-            <h1 className='fontsfirst'>Home</h1>
+            <h2 className='fontsfirst'>Home</h2>
        
           </div>
           <div className='links' data-aos="fade-up" data-aos-duration='1300'>
@@ -38,7 +38,7 @@ const FirstPageReact = () => {
           offset={-70} 
           duration={500}
         >
-            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Education</h1>
+            <h2 className='fontsfirst' style={{ cursor: 'pointer' }} >Education</h2>
             </Link>
           </div >
           <div className='links'>
@@ -49,7 +49,7 @@ const FirstPageReact = () => {
           offset={-70} 
           duration={500}
         >
-            <h1 className='fontsfirst' style={{ cursor: 'pointer' }} >Projects</h1>
+            <h2 className='fontsfirst' style={{ cursor: 'pointer' }} >Projects</h2>
             </Link>
           </div >
           <div className='links' >
@@ -60,11 +60,11 @@ const FirstPageReact = () => {
           offset={-10} 
           duration={1000}
         >
-            <h1 className='fontsfirst'  style={{ cursor: 'pointer' }}>Internships</h1>
+            <h2 className='fontsfirst'  style={{ cursor: 'pointer' }}>Internships</h2>
             </Link>
           </div>
           <div className='links' >
-          <a  href="mailto:shri.vilvadrinath@gmail.com" style={{ textDecoration: "None" , color: "white"}}><h1 className='fontsfirst'>Email</h1></a>
+          <a  href="mailto:shri.vilvadrinath@gmail.com" style={{ textDecoration: "None" , color: "white"}}><h2 className='fontsfirst'>Email</h2></a>
           </div>
 
         </div>

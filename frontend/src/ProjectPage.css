@@ -1,4 +1,5 @@
 .ProjectPage{
+  scale: 1;
   width: 100vw;
   height: 300%;
   position: absolute;
@@ -12,7 +13,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 60px;
-  top: 0%;
+  top: 5%;
   position: absolute;
   left: 5%;
 }
@@ -175,9 +176,9 @@
 
 .mrsdesc{
   position: absolute;
-  top : 250%;
+  top : 100%;
   
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .secondmrs{
@@ -336,11 +337,22 @@ left: 0%;
 
 .fs2{
   display: flex;
+  width: 80vw;
   
   height: 20%;
   position: absolute;
   top: 65%;
-  left: 55%;
+  left: 13.5%;
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.secondfd{
+  height: 20%;
+  position: absolute;
+  top: 140%;
+  left: 56%;
   font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
@@ -353,7 +365,7 @@ left: 0%;
   font-style: normal;
   font-size: 40px;
   position: absolute;
-  top: 150%;
+  top: 95%;
 }
 
 .iottitle{

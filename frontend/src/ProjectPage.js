@@ -8,9 +8,11 @@ const ProjectPageReact = () => {
   return (
     <div className='ProjectPage'>
       <div className='title'>
+        <br></br>
         <p data-aos="fade-down" data-aos-duration="1000">PROJECTS</p>
       </div>
       <div className='mltitle'>
+        <br></br>
         <p data-aos="fade-right">MACHINE LEARNING</p>
       </div>
       <div className='ml'>
@@ -54,9 +56,9 @@ const ProjectPageReact = () => {
 
       </div>
       <div className='secml'>
-        <div className='secondml2'  data-aos="fade-up">
-        <p className='mrs'>Generative AI Integration</p>
-        <p className='mrsdesc'>We created an innovative GenAI-powered learning platform for the Study portal, 
+        <div className='secondml2'  data-aos="fade-up" >
+        <p className='mrs' style={{ marginTop: "-20%" }}>Generative AI Integration</p>
+        <p className='mrsdesc' style={{ marginTop: "-5%" }}>We created an innovative GenAI-powered learning platform for the Study portal, 
           transforming the user experience with interactive content, real-time problem-solving support, 
           and intelligent feedback mechanisms. This cutting-edge environment integrates a 
           live coding IDE with seamless API integration and a secure JWT-based login system. 
@@ -101,15 +103,15 @@ const ProjectPageReact = () => {
       
       <div className='fs'>
         <div className='firstfs' data-aos="fade-up-right">
-        <p className='gez'>GROCEREZ</p>
-        <p className='gezdesc'>In this project we have built a sophisticated grocery shopping application developed with Vue.js for a dynamic user interface, 
+        <p className='gez' style={{ marginTop: "-15%" }}>GROCEREZ</p>
+        <p className='gezdesc' style={{ marginTop: "-10%" }}>In this project we have built a sophisticated grocery shopping application developed with Vue.js for a dynamic user interface, 
           Flask for robust backend functionality, Redis for efficient caching, 
           and SQLite for database storage. The application seamlessly integrates worker beats to handle background processes,
            creating a comprehensive shopping experience for Users, Managers, and Admins. Users can effortlessly browse,
             add items to their cart, and make purchases, while Managers contribute valuable feedback to enhance the platform. 
             Admins, with privileged access, utilize Flask, Redis, and SQLite for efficient stock management, including tasks such as restocking items like dairy products.</p>
         </div>
-        <div className='secondfs' data-aos="fade-up"> 
+        <div className='secondfs' data-aos="fade-up" style={{ marginTop: "-4%" }}> 
         <div className='secondml1'  data-aos="fade-up"> 
           <div className='borderml1'>
             <div className='skill1'>
@@ -140,7 +142,7 @@ const ProjectPageReact = () => {
         </div>
       </div>
        <div className='fs2' data-aos="fade-up">
-        <div className='secondfd'>
+        <div className='secondfd' style={{ marginTop: "-3%" }}>
         <p className='portfolio'  data-aos="fade-up-left">PORTFOLIO</p>
         <p className='portdesc'  data-aos="fade-up-left">
         My portfolio website combines the power of React for dynamic frontend interaction with Flask, JavaScript, and SQLite for backend functionality. 
@@ -151,7 +153,7 @@ const ProjectPageReact = () => {
         visually appealing interface to explore my work.
         </p>
         </div>
-        <div className='secondml3'  data-aos="fade-up"> 
+        <div className='secondml3'  data-aos="fade-up" style={{ marginTop: "-4%" }}> 
           <div className='borderml1'>
             <div className='skill1'>
             ReactJs 
